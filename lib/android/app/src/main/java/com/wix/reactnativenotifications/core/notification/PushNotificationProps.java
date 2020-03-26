@@ -11,11 +11,11 @@ public class PushNotificationProps {
     }
 
     public String getTitle() {
-        return mBundle.getString("title");
+        return mBundle.getString("gcm.notification.title");
     }
 
     public String getBody() {
-        return mBundle.getString("body");
+        return mBundle.getString("gcm.notification.body");
     }
 
     public Bundle asBundle() {
